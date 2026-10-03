@@ -1,0 +1,22 @@
+score = 0
+
+print("Python Quiz")
+print("-----------")
+
+answer = input("1. Which keyword is used to define a function? ")
+
+if answer.lower() == "def":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+answer = input("2. Which data type stores True or False? ")
+
+if answer.lower() == "bool":
+    print("Correct!")
+    score += 1
+else:
+    print("Wrong!")
+
+print("Your score:", score, "/ 2")
